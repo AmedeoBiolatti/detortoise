@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "detortoise"
+version = "0.1.0"
+description = "Fine-tuning off the shell"
+authors = ["Amedeo Biolatti <amedeo.biolatti@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+keras = ">=3.0"
+jax = ">=0.4.36"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
